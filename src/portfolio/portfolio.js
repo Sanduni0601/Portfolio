@@ -220,8 +220,8 @@ const skillCategories = [
       </section>
 
       {/* Skills */}
-      <section className="max-w-6xl mx-auto px-6 py-17">
-  <h2 className="text-3xl font-semibold mb-10 text-yellow-500 text-center py-20">
+<section className="max-w-6xl mx-auto px-6 py-12">
+  <h2 className="text-3xl font-semibold mb-10 text-yellow-500 text-center">
     Skills
   </h2>
 
@@ -239,7 +239,7 @@ const skillCategories = [
           {category.skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex items-center gap-3 bg-gray-800 px-2 py-3 rounded-lg hover:scale-105 transition"
+              className="flex items-center gap-3 bg-gray-800 px-3 py-2 rounded-lg hover:scale-105 transition transform"
             >
               <span className="text-2xl">{skill.icon}</span>
               <span className="text-sm text-gray-200">{skill.name}</span>
@@ -250,6 +250,7 @@ const skillCategories = [
     ))}
   </div>
 </section>
+
 
 
       {/* Achievements */}
