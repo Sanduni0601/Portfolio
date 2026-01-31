@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6b659968.css",
-    "main.js": "/portfolio/static/js/main.6b0efdc6.js",
-    "static/media/photo.jpeg": "/portfolio/static/media/photo.277ac8b6af4b2f9c7367.jpeg",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.290485449a5363e9ab43.pdf",
-    "static/media/cisco.png": "/portfolio/static/media/cisco.467b4b530383a81ccfe0.png",
-    "static/media/commonwealth.png": "/portfolio/static/media/commonwealth.ef92712e3074723c31d4.png",
-    "index.html": "/portfolio/index.html",
-    "main.6b659968.css.map": "/portfolio/static/css/main.6b659968.css.map",
-    "main.6b0efdc6.js.map": "/portfolio/static/js/main.6b0efdc6.js.map"
+    "main.css": "/Portfolio/static/css/main.6b659968.css",
+    "main.js": "/Portfolio/static/js/main.a88ade03.js",
+    "static/media/photo.jpeg": "/Portfolio/static/media/photo.277ac8b6af4b2f9c7367.jpeg",
+    "static/media/cv.pdf": "/Portfolio/static/media/cv.290485449a5363e9ab43.pdf",
+    "static/media/cisco.png": "/Portfolio/static/media/cisco.467b4b530383a81ccfe0.png",
+    "static/media/commonwealth.png": "/Portfolio/static/media/commonwealth.ef92712e3074723c31d4.png",
+    "index.html": "/Portfolio/index.html",
+    "main.6b659968.css.map": "/Portfolio/static/css/main.6b659968.css.map",
+    "main.a88ade03.js.map": "/Portfolio/static/js/main.a88ade03.js.map"
   },
   "entrypoints": [
     "static/css/main.6b659968.css",
-    "static/js/main.6b0efdc6.js"
+    "static/js/main.a88ade03.js"
   ]
 }
