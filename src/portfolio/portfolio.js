@@ -269,7 +269,7 @@ const skillCategories = [
               </div>
               <p className="text-gray-300">{ach.description}</p>
             </div>
-          ))}Portf
+          ))}
         
         </div>
       </section>
