@@ -215,8 +215,28 @@ const skillCategories = [
         <h2 className="text-3xl font-semibold mb-4 text-yellow-500 text-center">About Me</h2>
         <p className="text-gray-300 leading-relaxed">
           I am a motivated BSc.(Hons) Information Technology student at the University of Jaffna with a strong academic background and hands-on experience in software engineering and full-stack web development. 
-          I am actively seeking Software Engineer and Full-Stack Developer internship opportunities where I can apply my skills and continue learning in a real-world environment.
+          I am actively seeking Software Engineer and Full-Stack Developer job opportunities where I can apply my skills and continue learning in a real-world environment.
         </p>
+      </section>
+
+      {/* Internship Experience */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-semibold mb-8 text-yellow-500 text-center">Internship Experience</h2>
+        <div className="bg-gray-800 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
+            <div>
+              <h3 className="text-2xl font-bold text-white">Software Engineer Intern</h3>
+              <p className="text-yellow-400 font-semibold text-lg">CIS WORLD (PVT) LTD</p>
+            </div>
+          </div>
+          <ul className="list-disc pl-5 text-gray-300 space-y-2 mt-4">
+            <li>Developed and maintained web applications using React.js, Nest.js, and related technologies.</li>
+            <li>Collaborated with senior developers to implement new features and resolve bugs.</li>
+            <li>Participated in software testing, debugging, and code reviews.</li>
+            <li>Worked with REST APIs and database management systems.</li>
+            <li>Contributed to Agile team meetings and project planning activities.</li>
+          </ul>
+        </div>
       </section>
 
       {/* Skills */}
