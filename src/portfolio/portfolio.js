@@ -24,6 +24,9 @@ import {
   SiMysql,
   SiMongodb,
   SiPostman,
+  SiDocker,
+  SiBitbucket,
+  SiNestjs,
 } from "react-icons/si";
 
 import { MdPeople } from "react-icons/md";
@@ -159,6 +162,7 @@ const skillCategories = [
       { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
       { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
       { name: "Spring Boot", icon: <SiSpringboot className="text-green-600" /> },
+      { name: "Nest.js", icon: <SiNestjs className="text-red-500" /> },
     ],
   },
   {
@@ -174,8 +178,11 @@ const skillCategories = [
       { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
       { name: "GitHub", icon: <FaGithub className="text-white" /> },
       { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
+      { name: "Docker", icon: <SiDocker className="text-blue-400" /> },
+      { name: "Bitbucket", icon: <SiBitbucket className="text-blue-500" /> },
     ],
   },
+
   {
     title: "Soft Skills",
     skills: [
@@ -219,25 +226,7 @@ const skillCategories = [
         </p>
       </section>
 
-      {/* Internship Experience */}
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-semibold mb-8 text-yellow-500 text-center">Internship Experience</h2>
-        <div className="bg-gray-800 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
-            <div>
-              <h3 className="text-2xl font-bold text-white">Software Engineer Intern</h3>
-              <p className="text-yellow-400 font-semibold text-lg">CIS WORLD (PVT) LTD</p>
-            </div>
-          </div>
-          <ul className="list-disc pl-5 text-gray-300 space-y-2 mt-4">
-            <li>Developed and maintained web applications using React.js, Nest.js, and related technologies.</li>
-            <li>Collaborated with senior developers to implement new features and resolve bugs.</li>
-            <li>Participated in software testing, debugging, and code reviews.</li>
-            <li>Worked with REST APIs and database management systems.</li>
-            <li>Contributed to Agile team meetings and project planning activities.</li>
-          </ul>
-        </div>
-      </section>
+
 
       {/* Skills */}
 <section className="max-w-6xl mx-auto px-6 py-12">
@@ -309,6 +298,26 @@ const skillCategories = [
                {proj.link}
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Internship Experience */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-semibold mb-8 text-yellow-500 text-center">Internship Experience</h2>
+        <div className="bg-gray-800 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-2">
+            <div>
+              <h3 className="text-2xl font-bold text-white">Software Engineer Intern</h3>
+              <p className="text-yellow-400 font-semibold text-lg">CIS WORLD (PVT) LTD</p>
+            </div>
+          </div>
+          <ul className="list-disc pl-5 text-gray-300 space-y-2 mt-4">
+            <li>Developed and maintained web applications using React.js, Nest.js, and related technologies.</li>
+            <li>Collaborated with senior developers to implement new features and resolve bugs.</li>
+            <li>Participated in software testing, debugging, and code reviews.</li>
+            <li>Worked with REST APIs and database management systems.</li>
+            <li>Contributed to Agile team meetings and project planning activities.</li>
+          </ul>
         </div>
       </section>
 
